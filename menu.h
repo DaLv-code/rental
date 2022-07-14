@@ -23,6 +23,12 @@ private slots:
 
     void on_logout_btn_clicked();
 
+    void on_rental_btn_clicked();
+
+    void on_change_btn_clicked();
+
+    void on_center_btn_clicked();
+
 private:
     Ui::menu *ui;
     std::string Get_id;

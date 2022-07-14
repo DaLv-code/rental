@@ -18,7 +18,7 @@ protected:
 public:
     DB() {
         QSqlDatabase db = QSqlDatabase::addDatabase("QMYSQL");
-        db.setDatabaseName("tourist");
+        db.setDatabaseName("rental");
         db.setHostName("10.10.20.35");
         db.setUserName("open");
         db.setPassword("root1234");

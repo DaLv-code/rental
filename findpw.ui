@@ -6,36 +6,18 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>273</width>
-    <height>253</height>
+    <width>322</width>
+    <height>148</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Find Password</string>
+   <string>비밀번호 찾기</string>
   </property>
-  <widget class="QLabel" name="label_3">
-   <property name="geometry">
-    <rect>
-     <x>70</x>
-     <y>10</y>
-     <width>131</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="font">
-    <font>
-     <pointsize>16</pointsize>
-    </font>
-   </property>
-   <property name="text">
-    <string>비밀번호 찾기</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="back_btn">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>210</y>
+     <y>110</y>
      <width>71</width>
      <height>25</height>
     </rect>
@@ -47,8 +29,8 @@
   <widget class="QLineEdit" name="find_pw">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>130</y>
+     <x>90</x>
+     <y>40</y>
      <width>131</width>
      <height>25</height>
     </rect>
@@ -58,20 +40,20 @@
    <property name="geometry">
     <rect>
      <x>40</x>
-     <y>110</y>
+     <y>40</y>
      <width>81</width>
      <height>17</height>
     </rect>
    </property>
    <property name="text">
-    <string>ID</string>
+    <string>아이디</string>
    </property>
   </widget>
   <widget class="QPushButton" name="findpw_btn">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>130</y>
+     <x>230</x>
+     <y>40</y>
      <width>51</width>
      <height>25</height>
     </rect>

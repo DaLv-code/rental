@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>238</width>
-    <height>271</height>
+    <width>232</width>
+    <height>461</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,20 +17,20 @@
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>40</y>
+     <y>180</y>
      <width>191</width>
      <height>51</height>
     </rect>
    </property>
    <property name="text">
-    <string>관광지 조회</string>
+    <string>여행지 조회</string>
    </property>
   </widget>
   <widget class="QPushButton" name="user_infor">
    <property name="geometry">
     <rect>
      <x>20</x>
-     <y>130</y>
+     <y>340</y>
      <width>191</width>
      <height>51</height>
     </rect>
@@ -42,14 +42,53 @@
   <widget class="QPushButton" name="logout_btn">
    <property name="geometry">
     <rect>
-     <x>80</x>
-     <y>210</y>
+     <x>70</x>
+     <y>410</y>
      <width>81</width>
      <height>35</height>
     </rect>
    </property>
    <property name="text">
     <string>로그아웃</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rental_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>렌터카 실시간 예약</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="change_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>렌터카 에약 변경</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="center_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>260</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>고객센터 문의</string>
    </property>
   </widget>
  </widget>

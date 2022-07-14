@@ -7,11 +7,11 @@
     <x>0</x>
     <y>0</y>
     <width>271</width>
-    <height>284</height>
+    <height>328</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>My Profile</string>
+   <string>나의 정보</string>
   </property>
   <widget class="QPushButton" name="change_name_btn">
    <property name="geometry">
@@ -92,7 +92,7 @@
    <property name="geometry">
     <rect>
      <x>190</x>
-     <y>250</y>
+     <y>290</y>
      <width>71</width>
      <height>25</height>
     </rect>
@@ -123,20 +123,7 @@
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>250</y>
-     <width>71</width>
-     <height>25</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>돌아가기</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="back_btn_2">
-   <property name="geometry">
-    <rect>
-     <x>120</x>
-     <y>300</y>
+     <y>290</y>
      <width>71</width>
      <height>25</height>
     </rect>
@@ -156,6 +143,45 @@
    </property>
    <property name="text">
     <string>변경</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>210</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>point</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="change_pw_btn_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>230</y>
+     <width>51</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>조회</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="point">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>131</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
    </property>
   </widget>
  </widget>

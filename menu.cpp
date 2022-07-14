@@ -2,6 +2,9 @@
 #include "ui_menu.h"
 #include "user_infor.h"
 #include "tourist.h"
+#include "rentacar.h"
+#include "chat.h"
+#include "change.h"
 
 menu::menu(std::string Get_id, QWidget *parent) :
     QDialog(parent),
@@ -37,4 +40,31 @@ void menu::on_tourist_clicked()
 void menu::on_logout_btn_clicked()
 {
     this->close();
+}
+
+void menu::on_rental_btn_clicked()
+{
+    this->hide();
+    rentacar rentacar(Get_id);
+    rentacar.setModal(true);
+    rentacar.exec();
+    this->show();
+}
+
+void menu::on_change_btn_clicked()
+{
+    this->hide();
+    change change(Get_id);
+    change.setModal(true);
+    change.exec();
+    this->show();
+}
+
+void menu::on_center_btn_clicked()
+{
+    this->hide();
+    chat chat(Get_id);
+    chat.setModal(true);
+    chat.exec();
+    this->show();
 }

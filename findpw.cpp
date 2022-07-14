@@ -21,7 +21,7 @@ void findpw::on_findpw_btn_clicked()
     query.exec(QString::fromStdString(SQL));
     query.next();
 
-    QMessageBox::information(this,"저기어때","비밀번호는 "+query.value(0).toString()+"입니다.");
+    QMessageBox::information(this,"둘이옵서예 렌터카","비밀번호는 "+query.value(0).toString()+"입니다.");
 }
 
 void findpw::on_back_btn_clicked()

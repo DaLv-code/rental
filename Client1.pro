@@ -16,27 +16,42 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    change.cpp \
+    chat.cpp \
     findpw.cpp \
     main.cpp \
     login.cpp \
     menu.cpp \
+    pay.cpp \
+    rentacar.cpp \
+    reservation.cpp \
     signup.cpp \
     tourist.cpp \
     user_infor.cpp
 
 HEADERS += \
+    change.h \
+    chat.h \
     database.h \
     findpw.h \
     login.h \
     menu.h \
+    pay.h \
+    rentacar.h \
+    reservation.h \
     signup.h \
     tourist.h \
     user_infor.h
 
 FORMS += \
+    change.ui \
+    chat.ui \
     findpw.ui \
     login.ui \
     menu.ui \
+    pay.ui \
+    rentacar.ui \
+    reservation.ui \
     signup.ui \
     tourist.ui \
     user_infor.ui
