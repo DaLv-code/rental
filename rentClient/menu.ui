@@ -95,7 +95,7 @@
 {background-color:#333; color:#fff;}</string>
    </property>
    <property name="text">
-    <string>렌터카 에약 변경</string>
+    <string>렌터카 예약 변경</string>
    </property>
   </widget>
   <widget class="QPushButton" name="center_btn">
