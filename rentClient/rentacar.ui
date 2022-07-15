@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>rentacar</class>
+ <widget class="QDialog" name="rentacar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>519</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>둘이옵서예 렌터카 예약</string>
+  </property>
+  <widget class="QTableWidget" name="carlist">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>60</y>
+     <width>516</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="rowCount">
+    <number>65</number>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <row/>
+   <column>
+    <property name="text">
+     <string>차종</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>종류</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>제원</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>렌트비용</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>남은수량</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QRadioButton" name="all_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>420</y>
+     <width>61</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>전체</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="gasoline_btn">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>420</y>
+     <width>61</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>휘발유</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="desel_btn">
+   <property name="geometry">
+    <rect>
+     <x>155</x>
+     <y>420</y>
+     <width>61</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>경유</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="gas_btn">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>420</y>
+     <width>61</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>LPG</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="battery_btn">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>420</y>
+     <width>61</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>전기차</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="inquiry_btn">
+   <property name="geometry">
+    <rect>
+     <x>354</x>
+     <y>420</y>
+     <width>181</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover
+{background-color:#333; color:#fff;}</string>
+   </property>
+   <property name="text">
+    <string>렌터카 조회</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="reservation_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>465</y>
+     <width>515</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover
+{background-color:#333; color:#fff;}</string>
+   </property>
+   <property name="text">
+    <string>실시간 예약</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover
+{background-color:#333; color:#fff;}</string>
+   </property>
+   <property name="text">
+    <string>돌아가기</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>25</y>
+     <width>111</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>렌터카 예약하기</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

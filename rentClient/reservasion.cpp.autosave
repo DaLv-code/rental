@@ -1,0 +1,20 @@
+#include "reservasion.h"
+#include "ui_reservasion.h"
+
+reservasion::reservasion(std::string Get_id, QWidget *parent) :
+    QDialog(parent),
+    ui(new Ui::reservasion)
+{
+    ui->setupUi(this);
+    this->Get_id = Get_id;
+}
+
+reservasion::~reservasion()
+{
+    delete ui;
+}
+
+void reservasion::on_calendarWidget_activated(const QDate &date)
+{
+    
+}

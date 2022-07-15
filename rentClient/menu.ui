@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>menu</class>
+ <widget class="QDialog" name="menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>243</width>
+    <height>435</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>메인화면</string>
+  </property>
+  <widget class="QPushButton" name="tourist">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover
+{background-color:#333; color:#fff;}</string>
+   </property>
+   <property name="text">
+    <string>여행지 조회</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="user_infor">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>310</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover
+{background-color:#333; color:#fff;}</string>
+   </property>
+   <property name="text">
+    <string>나의 정보</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="logout_btn">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>380</y>
+     <width>81</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover
+{background-color:#333; color:#fff;}</string>
+   </property>
+   <property name="text">
+    <string>로그아웃</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="rental_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover
+{background-color:#333; color:#fff;}</string>
+   </property>
+   <property name="text">
+    <string>렌터카 실시간 예약</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="change_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover
+{background-color:#333; color:#fff;}</string>
+   </property>
+   <property name="text">
+    <string>렌터카 에약 변경</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="center_btn">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>240</y>
+     <width>201</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton:hover
+{background-color:#333; color:#fff;}</string>
+   </property>
+   <property name="text">
+    <string>고객센터 문의</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
